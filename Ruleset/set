@@ -1,0 +1,172 @@
+[Rule]
+# 屏蔽HTTP3/QUIC协议
+AND,((PROTOCOL,UDP), (DEST-PORT,443)),REJECT-NO-DROP
+
+# UU
+PROCESS-NAME,UUBooster,🌐Direct
+
+# Playstation
+SRC-IP,172.22.51.2,🌐Direct
+SRC-IP,192.168.50.170,🎮Playstation
+DOMAIN-SUFFIX,playstation.com,🎮Playstation
+DOMAIN-SUFFIX,playstation.net,🎮Playstation
+DOMAIN-SUFFIX,playstationnetwork.com,🎮Playstation
+DOMAIN-SUFFIX,sony.com,🎮Playstation
+DOMAIN-SUFFIX,sonyentertainmentnetwork.com,🎮Playstation
+DOMAIN-SUFFIX,playstationemail.com,🎮Playstation
+
+# Nintendo
+SRC-IP,192.168.50.169,🎮Nintendo
+DOMAIN-SUFFIX,nintendo.com,🎮Nintendo
+DOMAIN-SUFFIX,nintendo.net,🎮Nintendo
+
+# Xbox
+SRC-IP,192.168.50.171,🎮Xbox
+DOMAIN-SUFFIX,xboxlive.com,🎮Xbox
+DOMAIN-SUFFIX,xboxservices.com,🎮Xbox
+DOMAIN-SUFFIX,gamepass.com,🎮Xbox
+DOMAIN,store-images.s-microsoft.com,🎮Xbox
+DOMAIN,img-prod-cms-rt-microsoft-com.akamaized.net,🎮Xbox
+DOMAIN,login.live.com,🎮Xbox
+DOMAIN,logincdn.msauth.net,🎮Xbox
+
+# Steam
+PROCESS-NAME,steam_osx,🎮Steam
+DOMAIN-SUFFIX,steam-chat.com,🎮Steam
+DOMAIN-SUFFIX,steamcontent.com,🎮Steam
+DOMAIN-SUFFIX,steamgames.com,🎮Steam
+DOMAIN-SUFFIX,steampowered.com,🎮Steam
+DOMAIN-SUFFIX,steamstat.us,🎮Steam
+DOMAIN-SUFFIX,steamstatic.com,🎮Steam
+DOMAIN-SUFFIX,steamusercontent.com,🎮Steam
+DOMAIN,steambroadcast.akamaized.net,🎮Steam
+DOMAIN,steamcdn-a.akamaihd.net,🎮Steam
+DOMAIN,steamcommunity-a.akamaihd.net,🎮Steam
+DOMAIN,steamstore-a.akamaihd.net,🎮Steam
+DOMAIN,steamusercontent-a.akamaihd.net,🎮Steam
+DOMAIN,steamusercontent-a.akamaihd.net,🎮Steam
+DOMAIN,steamuserimages-a.akamaihd.net,🎮Steam
+
+# > Download
+PROCESS-NAME,aria2c,🌐Direct
+PROCESS-NAME,fdm,🌐Direct
+PROCESS-NAME,Folx,🌐Direct
+PROCESS-NAME,NetTransport,🌐Direct
+PROCESS-NAME,Thunder,🌐Direct
+PROCESS-NAME,Transmission,🌐Direct
+PROCESS-NAME,uTorrent,🌐Direct
+PROCESS-NAME,WebTorrent,🌐Direct
+PROCESS-NAME,WebTorrent Helper,🌐Direct
+
+# Unbreak 后续规则修正
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list,🌐Direct
+
+# Advertising 广告
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Advertising.list,🛡Guard
+DOMAIN-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/AdvertisingPlus.list,🛡Guard
+
+# Privacy 隐私
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Privacy.list,🛡Guard
+
+# Hijacking 运营商劫持或恶意网站
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Guard/Hijacking.list,🛡Guard
+
+# Adguard
+DOMAIN,filters.adtidy.org,🌐Direct
+
+# Netflix
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/Netflix.list,Netflix
+
+# Disney+
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/DisneyPlus.list,Disney+
+
+# Discovery+
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/%E2%80%8EDiscoveryPlus.list,Disney+
+
+# YouTube
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Video/YouTube.list,YouTube
+
+# StreamingSE 中国流媒体服务（面向海外版本）
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/StreamingSE.list,🎞️StreamingSE
+
+# Apple 服务
+DOMAIN-SUFFIX,ess.apple.com,🌐Direct
+DOMAIN-SUFFIX,ls.apple.com,🌐Direct
+DOMAIN-SUFFIX,push.apple.com,🌐Direct
+DOMAIN-SUFFIX,icloud.com,🌐Direct
+DOMAIN,discussions.apple.com,🌐Direct
+DOMAIN,smp-device-content.apple.com,🌐Direct
+DOMAIN,musicstatus.itunes.apple.com,🌐Direct
+DOMAIN,uts-api.itunes.apple.com,🌐Direct
+DOMAIN,gsa.apple.com,🌐Direct
+# 在 https://github.com/DivineEngine/Profiles/tree/master/Surge/Ruleset/Extra/Apple 获取所需服务引入 Ruleset 类型规则及新建策略组。
+
+# Spotify
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/StreamingMedia/Music/Spotify.list,🌐Direct
+
+# Microsoft
+PROCESS-NAME,OneDrive,🌐Direct
+PROCESS-NAME,Microsoft Outlook,🌐Direct
+DOMAIN-SUFFIX,microsoft.com,🌐Direct
+DOMAIN-SUFFIX,msecnd.net,🌐Direct
+DOMAIN-SUFFIX,office.com,🌐Direct
+DOMAIN-SUFFIX,office.net,🌐Direct
+DOMAIN-SUFFIX,office365.com,🌐Direct
+DOMAIN-SUFFIX,s-microsoft.com,🌐Direct
+DOMAIN-SUFFIX,windows.com,🌐Direct
+DOMAIN-SUFFIX,live.com,🌐Direct
+DOMAIN-SUFFIX,live.net,🌐Direct
+DOMAIN-SUFFIX,onenote.com,🌐Direct
+DOMAIN-SUFFIX,skype.com,🌐Direct
+DOMAIN-SUFFIX,api.onedrive.com,🌐Direct
+DOMAIN-SUFFIX,microsoftonline.com,🌐Direct
+DOMAIN,microsoft-todo.helpshift.com,🌐Direct
+DOMAIN,centralus1-mediap.svc.ms,🌐Direct
+DOMAIN,officeci.azurewebsites.net,🌐Direct
+DOMAIN,in.appcenter.ms,🌐Direct
+
+# Synology
+DOMAIN-SUFFIX,synology.com,🌐Direct
+DOMAIN-SUFFIX,synology.me,🌐Direct
+
+# Infuse
+PROCESS-NAME,infuse,🌐Direct
+
+# Splashtop
+PROCESS-NAME,SRStreamerDaemon,🌐Direct
+PROCESS-NAME,Splashtop Streamer,🌐Direct
+PROCESS-NAME,Splashtop Personal,🌐Direct
+
+# linksys
+DOMAIN-SUFFIX,linksys.com,🌐Direct
+DOMAIN-SUFFIX,lswf.net,🌐Direct
+DOMAIN,cloud1.linksyssmartwifi.com,🌐Direct
+DOMAIN,http-inputs-belkin.splunkcloud.com,🌐Direct
+
+# Other
+DOMAIN-SUFFIX,huotan.com,🌐Direct
+DOMAIN-SUFFIX,snscz.com,🌐Direct
+DOMAIN-SUFFIX,nssurge.com,🌐Direct
+DOMAIN-SUFFIX,xa8.net,🌐Direct
+DOMAIN-SUFFIX,godaddy.com,🌐Direct
+DOMAIN-SUFFIX,imgbox.com,🌐Direct
+DOMAIN-SUFFIX,up.ccp.ovh,🌐Direct
+DOMAIN-SUFFIX,skylum.com,🌐Direct
+DOMAIN-SUFFIX,1password.com,🌐Direct
+DOMAIN-KEYWORD,protonmail,🌐Direct
+DOMAIN-KEYWORD,sgddns,🌐Direct
+
+# Global 全球加速
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list,🌑Proxy
+
+# China 中国直连
+RULE-SET,https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/China.list,🌐Direct
+
+# Local Area Network 局域网
+RULE-SET,LAN,🌐Direct
+
+# GeoIP China
+GEOIP,CN,🌐Direct
+
+# Final
+FINAL,🧭Final,dns-failed
