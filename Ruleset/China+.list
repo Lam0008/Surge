@@ -1,6 +1,24 @@
 # Adguard
 DOMAIN,filters.adtidy.org
 
+# Synology
+DOMAIN-SUFFIX,synology.com
+DOMAIN-SUFFIX,synology.me
+
+# Infuse
+PROCESS-NAME,infuse
+
+# Splashtop
+PROCESS-NAME,SRStreamerDaemon
+PROCESS-NAME,Splashtop Streamer
+PROCESS-NAME,Splashtop Personal
+
+# linksys
+DOMAIN-SUFFIX,linksys.com
+DOMAIN-SUFFIX,lswf.net
+DOMAIN,cloud1.linksyssmartwifi.com
+DOMAIN,http-inputs-belkin.splunkcloud.com
+
 # Other
 DOMAIN-SUFFIX,huotan.com
 DOMAIN-SUFFIX,snscz.com
