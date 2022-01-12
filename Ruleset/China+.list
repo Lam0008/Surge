@@ -1,3 +1,6 @@
+# Adguard
+DOMAIN,filters.adtidy.org
+
 # Other
 DOMAIN-SUFFIX,huotan.com
 DOMAIN-SUFFIX,snscz.com
