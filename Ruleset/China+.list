@@ -1,4 +1,4 @@
-# Apple 服务
+# > Apple 服务
 DOMAIN-SUFFIX,ess.apple.com
 DOMAIN-SUFFIX,ls.apple.com
 DOMAIN-SUFFIX,push.apple.com
@@ -9,28 +9,28 @@ DOMAIN,musicstatus.itunes.apple.com
 DOMAIN,uts-api.itunes.apple.com
 DOMAIN,gsa.apple.com
 
-# Adguard
+# > Adguard
 DOMAIN,filters.adtidy.org
 
-# Synology
+# > Synology
 DOMAIN-SUFFIX,synology.com
 DOMAIN-SUFFIX,synology.me
 
-# Infuse
+# > Infuse
 PROCESS-NAME,infuse
 
-# Splashtop
+# > Splashtop
 PROCESS-NAME,SRStreamerDaemon
 PROCESS-NAME,Splashtop Streamer
 PROCESS-NAME,Splashtop Personal
 
-# linksys
+# > linksys
 DOMAIN-SUFFIX,linksys.com
 DOMAIN-SUFFIX,lswf.net
 DOMAIN,cloud1.linksyssmartwifi.com
 DOMAIN,http-inputs-belkin.splunkcloud.com
 
-# Other
+# > Other
 DOMAIN-SUFFIX,huotan.com
 DOMAIN-SUFFIX,snscz.com
 DOMAIN-SUFFIX,nssurge.com
