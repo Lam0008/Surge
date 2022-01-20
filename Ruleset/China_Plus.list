@@ -40,6 +40,7 @@ DOMAIN,http-inputs-belkin.splunkcloud.com
 
 # > Other
 DOMAIN-SUFFIX,huotan.com
+DOMAIN-SUFFIX,hupu.com
 DOMAIN-SUFFIX,snscz.com
 DOMAIN-SUFFIX,nssurge.com
 DOMAIN-SUFFIX,xa8.net
