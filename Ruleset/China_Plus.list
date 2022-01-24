@@ -31,6 +31,7 @@ PROCESS-NAME,infuse
 PROCESS-NAME,SRStreamerDaemon
 PROCESS-NAME,Splashtop Streamer
 PROCESS-NAME,Splashtop Personal
+DOMAIN-KEYWORD,splashtop
 
 # > linksys
 DOMAIN-SUFFIX,linksys.com
