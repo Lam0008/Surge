@@ -28,6 +28,7 @@ DOMAIN-SUFFIX,synology.me
 PROCESS-NAME,infuse
 
 # > Plex
+PROCESS-NAME,Plex Media Server
 DOMAIN-KEYWORD,plex
 
 # > Splashtop
