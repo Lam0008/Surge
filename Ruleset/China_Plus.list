@@ -27,6 +27,10 @@ DOMAIN-SUFFIX,synology.me
 # > Infuse
 PROCESS-NAME,infuse
 
+# > Plex
+PROCESS-NAME,Plex Media Server
+DOMAIN-KEYWORD,plex
+
 # > Splashtop
 PROCESS-NAME,SRStreamerDaemon
 PROCESS-NAME,Splashtop Streamer
@@ -51,7 +55,6 @@ DOMAIN-SUFFIX,up.ccp.ovh
 DOMAIN-SUFFIX,skylum.com
 DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,urbanairship.com
-DOMAIN-KEYWORD,plex
 DOMAIN-KEYWORD,qingting
 DOMAIN-KEYWORD,globaldelight
 DOMAIN-KEYWORD,radioline
