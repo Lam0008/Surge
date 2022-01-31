@@ -14,6 +14,7 @@ DOMAIN-SUFFIX,onenote.com
 DOMAIN-SUFFIX,skype.com
 DOMAIN-SUFFIX,api.onedrive.com
 DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,outlook.com
 DOMAIN,microsoft-todo.helpshift.com
 DOMAIN,centralus1-mediap.svc.ms
 DOMAIN,officeci.azurewebsites.net
