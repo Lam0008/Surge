@@ -50,6 +50,7 @@ DOMAIN,http-inputs-belkin.splunkcloud.com
 DOMAIN-SUFFIX,api.meethue.com
 DOMAIN-SUFFIX,amplitude.com
 DOMAIN-SUFFIX,signify.com
+DOMAIN,www.lighting.philips.com
 DOMAIN,www.philips-hue.com
 DOMAIN,assets.adobedtm.com
 
