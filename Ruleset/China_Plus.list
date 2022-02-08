@@ -46,6 +46,11 @@ DOMAIN-SUFFIX,lswf.net
 DOMAIN,cloud1.linksyssmartwifi.com
 DOMAIN,http-inputs-belkin.splunkcloud.com
 
+# > Philips-Hue
+DOMAIN-SUFFIX,api.meethue.com
+DOMAIN-SUFFIX,amplitude.com
+DOMAIN-SUFFIX,philips-hue.com
+
 # > Other
 DOMAIN-SUFFIX,huotan.com
 DOMAIN-SUFFIX,hupu.com
@@ -60,8 +65,6 @@ DOMAIN-SUFFIX,1password.com
 DOMAIN-SUFFIX,urbanairship.com
 DOMAIN-SUFFIX,api.trakt.tv
 DOMAIN-SUFFIX,m-team.cc
-DOMAIN-SUFFIX,api.meethue.com
-DOMAIN-SUFFIX,amplitude.com
 DOMAIN-KEYWORD,qingting
 DOMAIN-KEYWORD,globaldelight
 DOMAIN-KEYWORD,radioline
