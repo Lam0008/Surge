@@ -49,7 +49,9 @@ DOMAIN,http-inputs-belkin.splunkcloud.com
 # > Philips-Hue
 DOMAIN-SUFFIX,api.meethue.com
 DOMAIN-SUFFIX,amplitude.com
-DOMAIN-SUFFIX,philips-hue.com
+DOMAIN-SUFFIX,signify.com
+DOMAIN,www.philips-hue.com
+DOMAIN,assets.adobedtm.com
 
 # > Other
 DOMAIN-SUFFIX,huotan.com
