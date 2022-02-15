@@ -1,6 +1,6 @@
 #!name= Disney+ Dualsub for Surge by Neurogram
 #!desc= Customized second language support
 [Script]
-DisneyPlus-Dualsub = type=http-response,pattern=https:\/\/.+media.dssott.com\/ps01\/disney\/.+(\.vtt|-all-.+\.m3u8.*),requires-body=true,max-size=307200,script-path=DisneyPlus-Dualsub.js
+DisneyPlus-Dualsub = type=http-response,pattern=https:\/\/.+media.dssott.com\/ps01\/disney\/.+(\.vtt|-all-.+\.m3u8.*),requires-body=true,max-size=307200,script-path=https://raw.githubusercontent.com/Lam0008/Surge/main/JS/DisneyPlus-Dualsub.js
 [MITM]
 hostname = *.media.dssott.com
