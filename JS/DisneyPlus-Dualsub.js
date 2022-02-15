@@ -1,4 +1,3 @@
-*/
 
 let url = $request.url
 let headers = $request.headers
