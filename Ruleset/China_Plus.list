@@ -38,6 +38,12 @@ DOMAIN,www.lighting.philips.com
 DOMAIN,www.philips-hue.com
 DOMAIN,assets.adobedtm.com
 
+# > ProtonMail
+DOMAIN-SUFFIX,pm.me
+DOMAIN-SUFFIX,protonmail.ch
+DOMAIN-SUFFIX,protonmail.com
+DOMAIN-SUFFIX,protonstatus.com
+
 # > Other
 DOMAIN-SUFFIX,huotan.com
 DOMAIN-SUFFIX,snscz.com
@@ -49,5 +55,4 @@ DOMAIN-SUFFIX,skylum.com
 DOMAIN-SUFFIX,m-team.cc
 DOMAIN-KEYWORD,globaldelight
 DOMAIN-KEYWORD,radioline
-DOMAIN-KEYWORD,protonmail
 DOMAIN-KEYWORD,sgddns
