@@ -32,7 +32,7 @@ DOMAIN,http-inputs-belkin.splunkcloud.com
 DOMAIN-KEYWORD,LINKSYS35355
 
 # > Philips-Hue
-DOMAIN-SUFFIX,api.meethue.com
+DOMAIN-SUFFIX,meethue.com
 DOMAIN-SUFFIX,signify.com
 DOMAIN,www.lighting.philips.com
 DOMAIN,www.philips-hue.com
