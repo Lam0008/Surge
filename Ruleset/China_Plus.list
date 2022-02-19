@@ -11,7 +11,6 @@ PROCESS-NAME,infuse
 # > Plex
 PROCESS-NAME,Plex Media Server
 PROCESS-NAME,Plex Relay
-DOMAIN,o17675.ingest.sentry.io
 DOMAIN-KEYWORD,plex
 
 # > Splashtop
