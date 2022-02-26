@@ -1,4 +1,12 @@
-# > Microsoft
+# NAME: Microsoft
+# AUTHOR: blackmatrix7
+# REPO: https://github.com/blackmatrix7/ios_rule_script
+# UPDATED: 2022-02-11 16:03:15
+# PROCESS-NAME: 2
+# DOMAIN-SUFFIX: 417
+# USER-AGENT: 3
+# DOMAIN-KEYWORD: 4
+# TOTAL: 426
 DOMAIN-SUFFIX,1drv.com
 DOMAIN-SUFFIX,a-msedge.net
 DOMAIN-SUFFIX,a1158.g.akamai.net
