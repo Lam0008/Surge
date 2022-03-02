@@ -41,6 +41,7 @@ DOMAIN-SUFFIX,protonstatus.com
 
 # > Bank
 DOMAIN,test-wx.cgbchina.com.cn
+DOMAIN,pv-mall2.sdc.cs.icbc
 
 # > Other
 DOMAIN-SUFFIX,xa8.net
