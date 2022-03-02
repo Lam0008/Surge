@@ -39,6 +39,9 @@ DOMAIN-SUFFIX,protonmail.ch
 DOMAIN-SUFFIX,protonmail.com
 DOMAIN-SUFFIX,protonstatus.com
 
+# > Bank
+DOMAIN,test-wx.cgbchina.com.cn
+
 # > Other
 DOMAIN-SUFFIX,xa8.net
 DOMAIN,www.surge-activation.com
