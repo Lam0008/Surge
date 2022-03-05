@@ -33,12 +33,6 @@ DOMAIN,www.lighting.philips.com
 DOMAIN,www.philips-hue.com
 DOMAIN,assets.adobedtm.com
 
-# > ProtonMail
-DOMAIN-SUFFIX,pm.me
-DOMAIN-SUFFIX,protonmail.ch
-DOMAIN-SUFFIX,protonmail.com
-DOMAIN-SUFFIX,protonstatus.com
-
 # > Bank
 DOMAIN,test-wx.cgbchina.com.cn
 DOMAIN,pv-mall2.sdc.cs.icbc
