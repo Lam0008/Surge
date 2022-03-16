@@ -24,7 +24,7 @@ DOMAIN-SUFFIX,linksys.com
 DOMAIN-SUFFIX,lswf.net
 DOMAIN,cloud1.linksyssmartwifi.com
 DOMAIN,http-inputs-belkin.splunkcloud.com
-DOMAIN-KEYWORD,LINKSYS35355
+DOMAIN,LINKSYS35355
 
 # > Philips-Hue
 DOMAIN-SUFFIX,meethue.com
