@@ -2,7 +2,6 @@
 DOMAIN,filters.adtidy.org
 
 # > Synology
-DOMAIN-SUFFIX,synology.com
 DOMAIN-SUFFIX,synology.me
 
 # > Infuse
