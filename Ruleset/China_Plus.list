@@ -7,22 +7,11 @@ DOMAIN-SUFFIX,synology.me
 # > Infuse
 PROCESS-NAME,infuse
 
-# > Plex
-PROCESS-NAME,Plex Media Server
-PROCESS-NAME,Plex Relay
-DOMAIN-KEYWORD,plex
-
 # > Splashtop
 PROCESS-NAME,SRStreamerDaemon
 PROCESS-NAME,Splashtop Streamer
 PROCESS-NAME,Splashtop Personal
 DOMAIN-KEYWORD,splashtop
-
-# > linksys
-DOMAIN-SUFFIX,linksys.com
-DOMAIN-SUFFIX,lswf.net
-DOMAIN,cloud1.linksyssmartwifi.com
-DOMAIN,http-inputs-belkin.splunkcloud.com
 
 # > Philips-Hue
 DOMAIN-SUFFIX,meethue.com
@@ -37,6 +26,5 @@ DOMAIN,pv-mall2.sdc.cs.icbc
 
 # > Other
 DOMAIN-SUFFIX,xa8.net
-DOMAIN,www.surge-activation.com
 DOMAIN-KEYWORD,globaldelight
 DOMAIN-KEYWORD,radioline
