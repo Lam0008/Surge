@@ -1,9 +1,6 @@
 # > Adguard
 DOMAIN,filters.adtidy.org
 
-# > Synology
-DOMAIN-SUFFIX,synology.me
-
 # > Infuse
 PROCESS-NAME,infuse
 
