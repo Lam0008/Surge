@@ -33,6 +33,7 @@ IP-CIDR,18.141.157.159/32,no-resolve
 IP-CIDR,18.141.157.163/32,no-resolve
 IP-CIDR,54.65.63.198/32,no-resolve
 IP-CIDR,54.65.63.201/32,no-resolve
+IP-CIDR,54.65.63.205/32,no-resolve
 IP-CIDR,54.65.63.208/32,no-resolve
 IP-CIDR,54.65.63.212/32,no-resolve
 IP-CIDR,54.65.63.219/32,no-resolve
