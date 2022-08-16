@@ -28,3 +28,5 @@ DOMAIN-SUFFIX,ubnt.com
 DOMAIN-SUFFIX,id.ui.direct
 DOMAIN-SUFFIX,us-west-2.amazonaws.com
 DOMAIN,mobile-collector.newrelic.com
+IP-CIDR,54.65.63.208,no-resolve
+IP-CIDR,54.65.63.212,no-resolve
