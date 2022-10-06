@@ -6,10 +6,11 @@ PROCESS-NAME,infuse
 
 # > Go TV
 IP-CIDR,192.243.121.178/32,no-resolve
-IP-CIDR,23.237.231.71/32 ,no-resolve
-IP-CIDR,23.237.231.72/32 ,no-resolve
-IP-CIDR,23.237.231.73/32 ,no-resolve
-IP-CIDR,23.237.231.74/32 ,no-resolve
+IP-CIDR,23.237.231.71/32,no-resolve
+IP-CIDR,23.237.231.72/32,no-resolve
+IP-CIDR,23.237.231.73/32,no-resolve
+IP-CIDR,23.237.231.74/32,no-resolve
+IP-CIDR,64.62.198.109/32,no-resolve
 
 # > Plex
 PROCESS-NAME,Plex Media Server
