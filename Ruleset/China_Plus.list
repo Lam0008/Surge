@@ -6,6 +6,7 @@ PROCESS-NAME,infuse
 
 # > Go TV
 IP-CIDR,192.243.121.178/32,no-resolve
+IP-CIDR,23.237.231.71/32 ,no-resolve
 IP-CIDR,23.237.231.72/32 ,no-resolve
 IP-CIDR,23.237.231.73/32 ,no-resolve
 
