@@ -4,6 +4,9 @@ DOMAIN,filters.adtidy.org
 # > Infuse
 PROCESS-NAME,infuse
 
+# > Go TV
+IP-CIDR, 192.243.121.178/32,no-resolve
+
 # > Plex
 PROCESS-NAME,Plex Media Server
 PROCESS-NAME,Plex Relay
