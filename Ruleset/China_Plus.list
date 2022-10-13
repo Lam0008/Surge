@@ -1,6 +1,9 @@
 # > Adguard
 DOMAIN,filters.adtidy.org
 
+# > Emby
+DOMAIN,plus.aaa.ax
+
 # > Infuse
 PROCESS-NAME,infuse
 
