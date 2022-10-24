@@ -33,6 +33,7 @@ DOMAIN-KEYWORD,splashtop
 # > Ubiquiti
 DOMAIN-SUFFIX,ui.com
 DOMAIN-SUFFIX,ubnt.com
+DOMAIN-SUFFIX,*.id.ui.direct
 DOMAIN-SUFFIX,us-west-2.amazonaws.com
 DOMAIN,mobile-collector.newrelic.com
 IP-CIDR,18.141.157.128/25,no-resolve
