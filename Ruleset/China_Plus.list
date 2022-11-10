@@ -3,6 +3,7 @@ DOMAIN,filters.adtidy.org
 
 # > Emby
 DOMAIN,plus.aaa.ax
+DOMAIN,max.aaa.ax
 
 # > Infuse
 PROCESS-NAME,infuse
