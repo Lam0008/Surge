@@ -22,6 +22,7 @@ USER-AGENT,MApi* // Dianping
 # > Emby
 DOMAIN,plus.aaa.ax
 DOMAIN,max.aaa.ax
+DOMAIN-SUFFIX,emby.o9o.nl
 
 # > Infuse
 PROCESS-NAME,infuse
