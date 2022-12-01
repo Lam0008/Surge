@@ -26,6 +26,7 @@ DOMAIN,max.aaa.ax
 # 酒吧
 DOMAIN-SUFFIX,emby.o9o.nl
 DOMAIN-SUFFIX,ddnsjp.titams.xyz
+DOMAIN-SUFFIX,103.135.249.87
 
 # > Infuse
 PROCESS-NAME,infuse
