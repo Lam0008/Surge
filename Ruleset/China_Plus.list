@@ -23,6 +23,7 @@ USER-AGENT,MApi* // Dianping
 DOMAIN,plus.aaa.ax
 DOMAIN,max.aaa.ax
 DOMAIN-SUFFIX,emby.o9o.nl
+DOMAIN-SUFFIX,ddnsjp.titams.xyz
 
 # > Infuse
 PROCESS-NAME,infuse
