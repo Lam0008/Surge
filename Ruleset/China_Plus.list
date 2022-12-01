@@ -20,8 +20,10 @@ USER-AGENT,WeChat*
 USER-AGENT,MApi* // Dianping
 
 # > Emby
+# Misty+
 DOMAIN,plus.aaa.ax
 DOMAIN,max.aaa.ax
+# 酒吧
 DOMAIN-SUFFIX,emby.o9o.nl
 DOMAIN-SUFFIX,ddnsjp.titams.xyz
 
