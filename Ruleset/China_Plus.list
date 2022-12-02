@@ -21,8 +21,7 @@ USER-AGENT,MApi* // Dianping
 
 # > Emby
 # Misty+
-DOMAIN,plus.aaa.ax
-DOMAIN,max.aaa.ax
+DOMAIN,pro.misty.ltd
 # 酒吧
 DOMAIN-SUFFIX,emby.o9o.nl
 DOMAIN-SUFFIX,ddnsjp.titams.xyz
