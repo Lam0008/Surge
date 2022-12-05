@@ -54,10 +54,10 @@ PROCESS-NAME,Splashtop Personal
 DOMAIN-KEYWORD,splashtop
 
 # > Ubiquiti
-# DOMAIN-SUFFIX,ui.com
-# DOMAIN-SUFFIX,ubnt.com
-# DOMAIN-SUFFIX,us-west-2.amazonaws.com
-# DOMAIN-KEYWORD,id.ui.direct
-# DOMAIN,mobile-collector.newrelic.com
-# IP-CIDR,18.141.157.128/25,no-resolve
-# IP-CIDR,54.65.63.192/26,no-resolve
+DOMAIN-SUFFIX,ui.com
+DOMAIN-SUFFIX,ubnt.com
+DOMAIN-SUFFIX,us-west-2.amazonaws.com
+DOMAIN-KEYWORD,id.ui.direct
+DOMAIN,mobile-collector.newrelic.com
+IP-CIDR,18.141.157.128/25,no-resolve
+IP-CIDR,54.65.63.192/26,no-resolve
