@@ -21,7 +21,7 @@ USER-AGENT,MApi* // Dianping
 
 # > Emby
 # Misty+
-DOMAIN,pro.misty.ltd
+DOMAIN-SUFFIX,pro.misty.ltd
 # 酒吧
 DOMAIN-SUFFIX,emby.o9o.nl
 
