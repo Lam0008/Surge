@@ -19,8 +19,6 @@ USER-AGENT,MApi* // Dianping
 # > Emby
 # Misty+
 DOMAIN-SUFFIX,pro.misty.ltd
-# 酒吧
-DOMAIN-SUFFIX,emby.o9o.nl
 
 # > Infuse
 PROCESS-NAME,infuse
