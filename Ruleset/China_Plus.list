@@ -49,3 +49,4 @@ DOMAIN-KEYWORD,splashtop
 # > Ubiquiti
 DOMAIN,global.turn.twilio.com
 DOMAIN,global.stun.twilio.com
+DOMAIN,mobile-collector.newrelic.com
