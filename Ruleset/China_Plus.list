@@ -51,3 +51,4 @@ DOMAIN,global.turn.twilio.com
 DOMAIN,global.stun.twilio.com
 DOMAIN,mobile-collector.newrelic.com
 DOMAIN,a1ewuiz2p7wdvw-ats.iot.us-west-2.amazonaws.com
+DOMAIN-SUFFIX,id.ui.direct
