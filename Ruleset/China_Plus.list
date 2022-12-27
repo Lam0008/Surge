@@ -20,9 +20,6 @@ USER-AGENT,MApi* // Dianping
 # Misty+
 DOMAIN-SUFFIX,pro.misty.ltd
 
-# > Infuse
-PROCESS-NAME,infuse
-
 # > Go TV
 IP-CIDR,192.243.121.178/32,no-resolve
 IP-CIDR,23.237.231.0/24,no-resolve
