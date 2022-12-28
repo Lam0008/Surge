@@ -25,11 +25,6 @@ IP-CIDR,192.243.121.178/32,no-resolve
 IP-CIDR,23.237.231.0/24,no-resolve
 IP-CIDR,64.62.198.0/24,no-resolve
 
-# > Plex
-PROCESS-NAME,Plex Media Server
-PROCESS-NAME,Plex Relay
-DOMAIN-KEYWORD,plex
-
 # > Philips-Hue
 DOMAIN-SUFFIX,meethue.com
 DOMAIN-SUFFIX,signify.com
