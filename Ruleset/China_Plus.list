@@ -21,6 +21,8 @@ USER-AGENT,MApi* // Dianping
 DOMAIN-SUFFIX,pro.misty.ltd
 # MisakaF
 DOMAIN-SUFFIX,4837.misakaf.org
+# JMS
+DOMAIN-SUFFIX,cf.jmsooo.com
 
 # > Go TV
 IP-CIDR,192.243.121.178/32,no-resolve
