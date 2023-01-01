@@ -19,6 +19,8 @@ USER-AGENT,MApi* // Dianping
 # > Emby
 # Misty+
 DOMAIN-SUFFIX,pro.misty.ltd
+# MisakaF
+DOMAIN-SUFFIX,4837.misakaf.org
 
 # > Go TV
 IP-CIDR,192.243.121.178/32,no-resolve
