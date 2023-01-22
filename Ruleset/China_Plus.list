@@ -24,8 +24,6 @@ DOMAIN-SUFFIX,pro.misty.ltd
 DOMAIN-SUFFIX,cf2.misakaf.org
 # JMS
 DOMAIN-SUFFIX,cf.jmsooo.com
-#Nebula
-DOMAIN-SUFFIX,direct.nebula-emby.com
 
 # > Go TV
 IP-CIDR,192.243.121.178/32,no-resolve
