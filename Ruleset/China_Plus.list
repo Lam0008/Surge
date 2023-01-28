@@ -31,7 +31,7 @@ IP-CIDR,23.237.231.0/24,no-resolve
 IP-CIDR,64.62.198.0/24,no-resolve
 
 # > Plex
-DOMAIN-KEYWORD,Plex
+DOMAIN-KEYWORD,plex
 
 # > Philips-Hue
 DOMAIN-SUFFIX,meethue.com
