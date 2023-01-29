@@ -22,6 +22,7 @@ USER-AGENT,MApi* // Dianping
 DOMAIN-SUFFIX,cdn.misty.ltd
 # MisakaF
 DOMAIN-SUFFIX,cf2.misakaf.org
+DOMAIN-SUFFIX,hk.misakaf.org
 # JMS
 DOMAIN-SUFFIX,cf.jmsooo.com
 
