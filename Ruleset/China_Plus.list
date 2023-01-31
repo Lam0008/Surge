@@ -34,8 +34,8 @@ IP-CIDR,64.62.198.0/24,no-resolve
 
 # > Plex
 DOMAIN-KEYWORD,javbus
-PROCESS-NAME,Plex Media Server
-DOMAIN-KEYWORD,plex
+DOMAIN-SUFFIX,plex.tv
+DOMAIN-SUFFIX,sentry.io
 
 # > Philips-Hue
 DOMAIN-SUFFIX,meethue.com
