@@ -25,8 +25,6 @@ DOMAIN-SUFFIX,cdn.misty.ltd
 DOMAIN-SUFFIX,cf2.misakaf.org
 DOMAIN-SUFFIX,hk.misakaf.org
 DOMAIN-SUFFIX,embyvip.misakaf.org
-# JMS
-DOMAIN-SUFFIX,cf.jmsooo.com
 
 # > Go TV
 IP-CIDR,192.243.121.178/32,no-resolve
