@@ -35,13 +35,6 @@ IP-CIDR,64.62.198.0/24,no-resolve
 DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,sentry.io
 
-# > Philips-Hue
-# DOMAIN-SUFFIX,meethue.com
-# DOMAIN-SUFFIX,signify.com
-# DOMAIN,www.lighting.philips.com
-# DOMAIN,www.philips-hue.com
-# DOMAIN,assets.adobedtm.com
-
 # > Splashtop
 PROCESS-NAME,SRStreamerDaemon
 PROCESS-NAME,Splashtop Streamer
