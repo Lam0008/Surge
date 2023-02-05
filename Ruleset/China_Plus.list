@@ -20,8 +20,6 @@ USER-AGENT,MApi* // Dianping
 
 # > Emby
 # Misty+
-DOMAIN-SUFFIX,cdn.misty.ltd
-DOMAIN-SUFFIX,jp.misty.ltd
 DOMAIN-SUFFIX,dns.misty.ltd
 # MisakaF
 DOMAIN-SUFFIX,cf2.misakaf.org
