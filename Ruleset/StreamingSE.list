@@ -12,13 +12,15 @@ DOMAIN,www.bilibili.com
 DOMAIN,data.bilibili.com
 DOMAIN,broadcast.chat.bilibili.com
 DOMAIN,api.snm0516.aisee.tv
-DOMAIN-KEYWORD,cn-hk-eq-bcache-
 DOMAIN-SUFFIX,hdslb.com
+DOMAIN-SUFFIX,mcdn.bilivideo.cn
+DOMAIN-KEYWORD,cn-hk-eq-bcache-
 
 # > 愛奇藝台灣站
 DOMAIN,cache.video.iqiyi.com
 IP-CIDR,116.211.202.206/32,no-resolve
 IP-CIDR,116.211.202.216/32,no-resolve
+
 # > MangoTV(芒果TV国际)
 DOMAIN-SUFFIX,api.mgtv.com
 DOMAIN,mobileso.bz.mgtv.com
