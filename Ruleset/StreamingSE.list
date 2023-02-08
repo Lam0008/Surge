@@ -12,6 +12,7 @@ DOMAIN,www.bilibili.com
 DOMAIN,data.bilibili.com
 DOMAIN,broadcast.chat.bilibili.com
 DOMAIN-KEYWORD,cn-hk-eq-bcache-
+DOMAIN-SUFFIX,hdslb.com
 # > 愛奇藝台灣站
 DOMAIN,cache.video.iqiyi.com
 IP-CIDR,116.211.202.206/32,no-resolve
