@@ -13,7 +13,8 @@ DOMAIN,data.bilibili.com
 DOMAIN,broadcast.chat.bilibili.com
 DOMAIN,api.snm0516.aisee.tv
 DOMAIN-SUFFIX,hdslb.com
-DOMAIN-SUFFIX,mcdn.bilivideo.cn
+DOMAIN-SUFFIX,bilivideo.cn
+DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-KEYWORD,cn-hk-eq-bcache-
 
 # > 愛奇藝台灣站
