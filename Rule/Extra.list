@@ -18,6 +18,9 @@ USER-AGENT,MicroMessenger Client
 USER-AGENT,WeChat*
 USER-AGENT,MApi* // Dianping
 
+# > OneDrive
+DOMAIN-SUFFIX,storage.live.com
+
 # > Plex
 DOMAIN-SUFFIX,plex.tv
 DOMAIN-SUFFIX,sentry.io
