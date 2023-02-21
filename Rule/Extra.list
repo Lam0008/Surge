@@ -36,5 +36,6 @@ DOMAIN-SUFFIX,ui.com
 DOMAIN-SUFFIX,ubnt.com
 DOMAIN-SUFFIX,iot.us-west-2.amazonaws.com
 DOMAIN-SUFFIX,amazontrust.com
+DOMAIN-SUFFIX,id.ui.direct
 DOMAIN,global.turn.twilio.com
 DOMAIN,global.stun.twilio.com
