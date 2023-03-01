@@ -26,6 +26,7 @@ DOMAIN,plex.tv
 DOMAIN,together.plex.tv
 DOMAIN,vod.provider.plex.tv
 DOMAIN,discover.provider.plex.tv
+DOMAIN,pubsub.plex.tv
 DOMAIN-SUFFIX,sentry.io
 
 # > Splashtop
