@@ -23,12 +23,6 @@ DOMAIN-SUFFIX,storage.live.com
 
 # > Plex
 DOMAIN,v4.plex.tv
-DOMAIN,plex.tv
-DOMAIN,together.plex.tv
-DOMAIN,vod.provider.plex.tv
-DOMAIN,discover.provider.plex.tv
-DOMAIN,pubsub.plex.tv
-DOMAIN-SUFFIX,sentry.io
 
 # > Splashtop
 PROCESS-NAME,SRStreamerDaemon
