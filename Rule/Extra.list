@@ -25,7 +25,7 @@ DOMAIN-SUFFIX,storage.live.com
 DOMAIN,v4.plex.tv
 
 # > Splashtop
-PROCESS-NAME,SRStreamerDaemon
-PROCESS-NAME,Splashtop Streamer
-PROCESS-NAME,Splashtop Personal
-DOMAIN-KEYWORD,splashtop
+#PROCESS-NAME,SRStreamerDaemon
+#PROCESS-NAME,Splashtop Streamer
+#PROCESS-NAME,Splashtop Personal
+#DOMAIN-KEYWORD,splashtop
