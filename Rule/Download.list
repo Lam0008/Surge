@@ -1,0 +1,14 @@
+# > App Store
+DOMAIN,iosapps.itunes.apple.com
+DOMAIN,osxapps.itunes.apple.com
+
+# > Playstatioin
+DOMAIN-SUFFIX,prod.dl.playstation.net
+
+# > Nintendo
+DOMAIN,atum.hac.lp1.d4c.nintendo.net
+DOMAIN,jd-s3.akamaized.net
+
+# > Steam
+DOMAIN,client-update.akamai.steamstatic.com
+DOMAIN-SUFFIX,steamcontent.com
