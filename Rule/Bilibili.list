@@ -1,10 +1,10 @@
 # > bilibili
 DOMAIN,api.snm0516.aisee.tv
 DOMAIN,upos-hz-mirrorakam.akamaized.net
+DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,bilibili.com
 DOMAIN-SUFFIX,biliapi.com
 DOMAIN-SUFFIX,biliapi.net
-DOMAIN-SUFFIX,hdslb.com
 DOMAIN-SUFFIX,bilivideo.cn
 DOMAIN-SUFFIX,bilivideo.com
 DOMAIN-KEYWORD,cn-hk-eq-bcache-
