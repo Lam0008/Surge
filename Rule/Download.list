@@ -12,3 +12,6 @@ DOMAIN,jd-s3.akamaized.net
 # > Steam
 DOMAIN,client-update.akamai.steamstatic.com
 DOMAIN-SUFFIX,steamcontent.com
+
+# > Github
+DOMAIN,objects.githubusercontent.com
