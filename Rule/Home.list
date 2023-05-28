@@ -7,6 +7,7 @@ DOMAIN,cloudaccess.svc.ubnt.com
 DOMAIN,config.ubnt.com
 DOMAIN,global.turn.twilio.com
 DOMAIN,global.stun.twilio.com
+DOMAIN,trace.svc.ui.com
 DOMAIN-SUFFIX,id.ui.direct
 
 # > Plex
