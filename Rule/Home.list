@@ -1,0 +1,13 @@
+# > Ubiquiti
+DOMAIN,sso.ui.com
+DOMAIN,cloudaccess.svc.ui.com
+DOMAIN,static.ui.com
+DOMAIN,status.ui.com
+DOMAIN,cloudaccess.svc.ubnt.com
+DOMAIN,config.ubnt.com
+DOMAIN,global.turn.twilio.com
+DOMAIN,global.stun.twilio.com
+DOMAIN-SUFFIX,id.ui.direct
+
+# > Plex
+DOMAIN-SUFFIX,plex.direct
