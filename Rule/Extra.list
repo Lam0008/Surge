@@ -23,3 +23,6 @@ DOMAIN,audio-ak-spotify-com.akamaized.net
 DOMAIN,sso.ui.com
 DOMAIN,cloudaccess.svc.ui.com
 DOMAIN,static.ui.com
+DOMAIN,status.ui.com
+DOMAIN,cloudaccess.svc.ubnt.com
+DOMAIN,config.ubnt.com
