@@ -18,3 +18,7 @@ DOMAIN,v4.plex.tv
 
 # > Spotify
 DOMAIN,audio-ak-spotify-com.akamaized.net
+
+# > Ubiquiti
+DOMAIN,sso.ui.com
+DOMAIN,cloudaccess.svc.ui.com
