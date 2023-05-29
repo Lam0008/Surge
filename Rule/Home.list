@@ -1,3 +1,9 @@
+# > PS Remote
+IP-CIDR,52.40.62.0/24,no-resolve
+
+# > Plex
+DOMAIN-SUFFIX,plex.direct
+
 # > Ubiquiti
 DOMAIN,sso.ui.com
 DOMAIN,cloudaccess.svc.ui.com
@@ -9,6 +15,3 @@ DOMAIN,global.turn.twilio.com
 DOMAIN,global.stun.twilio.com
 DOMAIN,trace.svc.ui.com
 DOMAIN-SUFFIX,id.ui.direct
-
-# > Plex
-DOMAIN-SUFFIX,plex.direct
