@@ -9,6 +9,8 @@ IP-CIDR,198.11.136.0/24,no-resolve
 
 # > China
 DOMAIN-KEYWORD,baidu
+DOMAIN-KEYWORD,meituan
+DOMAIN-KEYWORD,hupu
 
 # > OneDrive
 DOMAIN-SUFFIX,storage.live.com
