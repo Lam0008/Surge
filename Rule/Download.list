@@ -18,6 +18,3 @@ DOMAIN,objects.githubusercontent.com
 
 # > Microsoft
 DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
-
-# > iCloud
-DOMAIN-SUFFIX,icloud-content.com
