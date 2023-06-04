@@ -13,6 +13,9 @@ DOMAIN,jd-s3.akamaized.net
 DOMAIN,client-update.akamai.steamstatic.com
 DOMAIN-SUFFIX,steamcontent.com
 
+# > Spotify
+DOMAIN,audio-ak-spotify-com.akamaized.net
+
 # > Github
 DOMAIN,objects.githubusercontent.com
 
