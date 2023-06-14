@@ -5,6 +5,10 @@ IP-CIDR,52.40.62.0/24,no-resolve
 DOMAIN-SUFFIX,plex.direct
 
 # > Ubiquiti
+DOMAIN,cloudaccess.svc.ubnt.com
+DOMAIN,cloudaccess.svc.ui.com
+DOMAIN,status.ui.com
+DOMAIN,sso.ui.com
 DOMAIN,global.turn.twilio.com
 DOMAIN,global.stun.twilio.com
 DOMAIN-SUFFIX,id.ui.direct
