@@ -1,6 +1,3 @@
-# > NAS
-DOMAIN,lingtam.synology.me
-
 # > PS Remote
 IP-CIDR,52.40.62.0/24,no-resolve
 
