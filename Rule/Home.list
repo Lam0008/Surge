@@ -8,6 +8,7 @@ DOMAIN-SUFFIX,plex.direct
 DOMAIN,cloudaccess.svc.ubnt.com
 DOMAIN,cloudaccess.svc.ui.com
 DOMAIN,status.ui.com
+DOMAIN,static.ui.com
 DOMAIN,sso.ui.com
 DOMAIN,global.turn.twilio.com
 DOMAIN,global.stun.twilio.com
