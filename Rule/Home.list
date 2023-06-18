@@ -1,8 +1,0 @@
-# > PS Remote
-IP-CIDR,52.40.62.0/24,no-resolve
-
-# > Plex
-DOMAIN-SUFFIX,plex.direct
-
-# > Ubiquiti
-DOMAIN-SUFFIX,id.ui.direct
