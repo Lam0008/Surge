@@ -1,6 +1,8 @@
 # > App Store
-DOMAIN,iosapps.itunes.apple.com
-DOMAIN,osxapps.itunes.apple.com
+DOMAIN,iosapps.itunes.apple.com // iOS AppStore
+DOMAIN,osxapps.itunes.apple.com // Mac AppStore
+DOMAIN-SUFFIX,icloud-content.com // iCloud同步备份
+DOMAIN,aod.itunes.apple.com // Apple Music
 
 # > Playstatioin
 DOMAIN-SUFFIX,prod.dl.playstation.net
@@ -17,7 +19,7 @@ DOMAIN-SUFFIX,steamcontent.com
 DOMAIN,audio-ak-spotify-com.akamaized.net
 
 # > Github
-DOMAIN,objects.githubusercontent.com
+DOMAIN-SUFFIX,*.githubusercontent.com
 
 # > Microsoft
 DOMAIN-SUFFIX,dl.delivery.mp.microsoft.com
