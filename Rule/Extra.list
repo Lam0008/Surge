@@ -15,8 +15,5 @@ DOMAIN-KEYWORD,hupu
 # > Plex
 DOMAIN,v4.plex.tv
 
-# > Spotify
-DOMAIN,audio-ak-spotify-com.akamaized.net
-
 # > Ubiquiti
 DOMAIN,sp-dir.uwn.com
