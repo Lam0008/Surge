@@ -12,6 +12,9 @@ DOMAIN,jd-s3.akamaized.net
 # > OneDrive
 DOMAIN-SUFFIX,storage.live.com
 
+# > Spotify
+DOMAIN,audio-ak-spotify-com.akamaized.net
+
 # > Steam
 DOMAIN,client-update.akamai.steamstatic.com
 DOMAIN-SUFFIX,steamcontent.com
