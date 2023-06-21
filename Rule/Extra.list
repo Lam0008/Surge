@@ -16,6 +16,7 @@ DOMAIN-KEYWORD,hupu
 DOMAIN,v4.plex.tv
 
 # > Ubiquiti
+DOMAIN,ocsp.r2m02.amazontrust.com
 DOMAIN,sp-dir.uwn.com
-DOMAIN,cloudaccess.svc.ubnt.com
-DOMAIN,sso.ui.com
+DOMAIN-SUFFIX,ui.com
+DOMAIN-SUFFIX,ubnt.com
