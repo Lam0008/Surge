@@ -17,4 +17,5 @@ DOMAIN,v4.plex.tv
 
 # > Ubiquiti
 DOMAIN,sp-dir.uwn.com
-DOMAIN,ocsp.r2m01.amazontrust.com
+DOMAIN,cloudaccess.svc.ubnt.com
+DOMAIN,sso.ui.com
