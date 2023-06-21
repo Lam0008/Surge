@@ -19,6 +19,6 @@ DOMAIN,v4.plex.tv
 DOMAIN,ocsp.r2m02.amazontrust.com
 DOMAIN,sp-dir.uwn.com
 DOMAIN,global.turn.twilio.com
-DOMAIN,global.stun.twilio.com:443
+DOMAIN,global.stun.twilio.com
 DOMAIN-SUFFIX,ui.com
 DOMAIN-SUFFIX,ubnt.com
