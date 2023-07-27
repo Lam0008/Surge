@@ -23,3 +23,6 @@ DOMAIN-SUFFIX,ui.com
 DOMAIN-SUFFIX,ubnt.com
 DOMAIN-SUFFIX,iot.us-west-2.amazonaws.com
 USER-AGENT,WiFiman*
+
+# > Wechat
+USER-AGENT,MicroMessenger Client
