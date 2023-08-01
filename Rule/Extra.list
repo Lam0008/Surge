@@ -17,6 +17,7 @@ DOMAIN,v4.plex.tv
 
 # > Splashtop
 PROCESS-NAME,Splashtop Personal
+PROCESS-NAME,Splashtop Streamer
 
 # > Ubiquiti
 DOMAIN,sp-dir.uwn.com
