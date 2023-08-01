@@ -15,6 +15,9 @@ DOMAIN-KEYWORD,hupu
 # > Plex
 DOMAIN,v4.plex.tv
 
+# > Splashtop
+PROCESS-NAME,Splashtop Personal
+
 # > Ubiquiti
 DOMAIN,sp-dir.uwn.com
 DOMAIN,global.turn.twilio.com
