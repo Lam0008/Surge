@@ -9,6 +9,7 @@ IP-CIDR,198.11.136.0/24,no-resolve
 
 # > Bytedance
 DOMAIN,rtcg.bytevcloud.com
+DOMAIN,rtcg-access.bytevcloud.com
 
 # > China
 DOMAIN-KEYWORD,baidu
