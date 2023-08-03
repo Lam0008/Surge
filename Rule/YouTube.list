@@ -6,6 +6,7 @@ DOMAIN-SUFFIX,gvt2.com
 DOMAIN-SUFFIX,youtu.be
 DOMAIN-SUFFIX,yt.be
 DOMAIN-SUFFIX,ytimg.com
+DOMAIN-SUFFIX,gstatic.com
 DOMAIN-KEYWORD,google
 DOMAIN-KEYWORD,youtube
 IP-CIDR,172.110.32.0/21,no-resolve
