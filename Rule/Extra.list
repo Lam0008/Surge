@@ -20,6 +20,7 @@ DOMAIN-KEYWORD,hupu
 DOMAIN,v4.plex.tv
 
 # > Splashtop
+DOMAIN-SUFFIX,splashtop.com
 PROCESS-NAME,Splashtop Personal
 PROCESS-NAME,Splashtop Streamer
 PROCESS-NAME,SRStreamerDaemon
