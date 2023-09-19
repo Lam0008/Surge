@@ -1,7 +1,8 @@
-# > App Store
+# > Apple
 DOMAIN,iosapps.itunes.apple.com // iOS AppStore
 DOMAIN,osxapps.itunes.apple.com // Mac AppStore
 DOMAIN,updates.cdn-apple.com //System Update
+DOMAIN-SUFFIX,icloud-content.com // iCloud
 
 # > Nintendo
 DOMAIN-SUFFIX,lp1.d4c.nintendo.net
