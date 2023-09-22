@@ -27,6 +27,4 @@ PROCESS-NAME,SRStreamerDaemon
 
 # > Ubiquiti
 DOMAIN,sp-dir.uwn.com
-DOMAIN,global.turn.twilio.com
-DOMAIN,global.stun.twilio.com
 USER-AGENT,WiFiman*
