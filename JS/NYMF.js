@@ -12,7 +12,7 @@ var objc = JSON.parse($response.body);
       {
         "quantity": "1",
         "purchase_date_ms": "1705905267000",
-        "expires_date": "2099-09-09 01:38:39 Etc/GMT",
+        "expires_date": "2099-09-09 09:38:39 Etc/GMT",
         "expires_date_pst": "2099-09-09 01:38:39 America/Los_Angeles",
         "is_in_intro_offer_period": "false",
         "transaction_id": "120002112488657",
