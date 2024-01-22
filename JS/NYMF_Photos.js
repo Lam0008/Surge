@@ -1,3 +1,6 @@
-var objc = JSON.parse($response.body);
-var result = objc.replace(""pro": false",""pro": true");
-$done({body : JSON.stringify(result)});
+const objc = JSON.parse($response.body);
+{
+  if (key == "pro")
+  {
+    replace("false","true");
+$done({body : JSON.stringify(objc)});
