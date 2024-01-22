@@ -15,9 +15,9 @@ var objc = JSON.parse($response.body);
         "expires_date": "2025-01-22 06:34:27 Etc/GMT",
         "expires_date_pst": "2025-01-21 22:34:27 America/Los_Angeles",
         "is_in_intro_offer_period": "false",
-        "transaction_id": "120002112488657",
+        "transaction_id": "220001826202938",
         "is_trial_period": "false",
-        "original_transaction_id": "120002112488657",
+        "original_transaction_id": "220001826202938",
         "purchase_date": "2024-01-22 06:34:27 Etc/GMT",
         "product_id": "com.nymf.app.special_yearly",
         "original_purchase_date_pst": "2024-01-21 22:34:28 America/Los_Angeles",
@@ -45,7 +45,7 @@ var objc = JSON.parse($response.body);
   "pending_renewal_info": [
     {
       "product_id": "com.nymf.app.special_yearly",
-      "original_transaction_id": "120002112488657",
+      "original_transaction_id": "220001826202938",
       "auto_renew_product_id": "com.nymf.app.special_yearly",
       "auto_renew_status": "1"
     }
@@ -58,9 +58,9 @@ var objc = JSON.parse($response.body);
       "expires_date": "2025-01-22 06:34:27 Etc/GMT",
       "expires_date_pst": "2025-01-21 22:34:27 America/Los_Angeles",
       "is_in_intro_offer_period": "false",
-      "transaction_id": "120002112488657",
+      "transaction_id": "220001826202938",
       "is_trial_period": "false",
-      "original_transaction_id": "120002112488657",
+      "original_transaction_id": "220001826202938",
       "purchase_date": "2024-01-22 06:34:27 Etc/GMT",
       "product_id": "com.nymf.app.special_yearly",
       "original_purchase_date_pst": "2024-01-21 22:34:28 America/Los_Angeles",
