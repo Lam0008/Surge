@@ -66,3 +66,4 @@ var objc = JSON.parse($response.body);
     "photo_id": 4174
   }
 ]
+$done({body : JSON.stringify(objc)});
