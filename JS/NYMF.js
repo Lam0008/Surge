@@ -12,8 +12,8 @@ var objc = JSON.parse($response.body);
       {
         "quantity": "1",
         "purchase_date_ms": "1705905267000",
-        "expires_date": "2025-01-22 06:34:27 Etc/GMT",
-        "expires_date_pst": "2025-01-21 22:34:27 America/Los_Angeles",
+        "expires_date": "2099-09-09 09:38:39 Etc/GMT",
+        "expires_date_pst": "2099-09-09 01:38:39 America/Los_Angeles",
         "is_in_intro_offer_period": "false",
         "transaction_id": "220001826202938",
         "is_trial_period": "false",
@@ -24,7 +24,7 @@ var objc = JSON.parse($response.body);
         "in_app_ownership_type": "PURCHASED",
         "original_purchase_date_ms": "1705905268000",
         "web_order_line_item_id": "120000992814523",
-        "expires_date_ms": "1737527667000",
+        "expires_date_ms": "4092595200000",
         "purchase_date_pst": "2024-01-21 22:34:27 America/Los_Angeles",
         "original_purchase_date": "2024-01-22 06:34:28 Etc/GMT"
       }
@@ -55,8 +55,8 @@ var objc = JSON.parse($response.body);
     {
       "quantity": "1",
       "purchase_date_ms": "1705905267000",
-      "expires_date": "2025-01-22 06:34:27 Etc/GMT",
-      "expires_date_pst": "2025-01-21 22:34:27 America/Los_Angeles",
+      "expires_date": "2099-09-09 09:38:39 Etc/GMT",
+      "expires_date_pst": "2099-09-09 01:38:39 America/Los_Angeles",
       "is_in_intro_offer_period": "false",
       "transaction_id": "220001826202938",
       "is_trial_period": "false",
@@ -68,7 +68,7 @@ var objc = JSON.parse($response.body);
       "subscription_group_identifier": "20718682",
       "original_purchase_date_ms": "1705905268000",
       "web_order_line_item_id": "120000992814523",
-      "expires_date_ms": "1737527667000",
+      "expires_date_ms": "4092595200000",
       "purchase_date_pst": "2024-01-21 22:34:27 America/Los_Angeles",
       "original_purchase_date": "2024-01-22 06:34:28 Etc/GMT"
     }
