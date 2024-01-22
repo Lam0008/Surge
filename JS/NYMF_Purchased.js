@@ -3,7 +3,7 @@ var objc = JSON.parse($response.body);
     objc = [
   {
     "id": 55,
-    "email": "mbwmvw55zk@privaterelay.appleid.com",
+    "email": "xxx",
     "photo": {
       "description": "The temperature in the shop was rising by the minute, and small droplets of sweat ran down her velvety skin like a picturesque rivulet, enlivening her athletic physique. Helga was a true professional and skillfully handled the huge lathe as if it were a part of her soul. The sun was already shining high outside and its rays penetrated the workshop, creating bright patches of light.",
       "model_ids": [
@@ -51,7 +51,7 @@ var objc = JSON.parse($response.body);
       "pro": true
     },
     "license_url": null,
-    "customer": "lam",
+    "customer": "xx",
     "transaction_id": "120002112468810",
     "valid": true,
     "currency_code": "USD",
