@@ -4,7 +4,7 @@ var objc = JSON.parse($response.body);
   "environment" : "Production",
   "receipt" : {
     "receipt_type" : "Production",
-    "app_item_id" : 1503443162,
+    "app_item_id" : 1495951015,
     "receipt_creation_date" : "2023-12-10 09:44:13 Etc/GMT",
     "bundle_id" : "com.nymf.app",
     "original_purchase_date" : "2023-12-10 09:36:46 Etc/GMT",
