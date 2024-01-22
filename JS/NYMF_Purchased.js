@@ -1,4 +1,6 @@
-[
+var objc = JSON.parse($response.body);
+
+    objc = [
   {
     "id": 55,
     "email": "mbwmvw55zk@privaterelay.appleid.com",
