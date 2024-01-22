@@ -12,8 +12,8 @@ var objc = JSON.parse($response.body);
       {
         "quantity": "1",
         "purchase_date_ms": "1705905267000",
-        "expires_date": "2025-01-22 06:34:27 Etc/GMT",
-        "expires_date_pst": "2025-01-21 22:34:27 America/Los_Angeles",
+        "expires_date": "2099-01-22 06:34:27 Etc/GMT",
+        "expires_date_pst": "2099-01-21 22:34:27 America/Los_Angeles",
         "is_in_intro_offer_period": "false",
         "transaction_id": "120002112488657",
         "is_trial_period": "false",
@@ -55,8 +55,8 @@ var objc = JSON.parse($response.body);
     {
       "quantity": "1",
       "purchase_date_ms": "1705905267000",
-      "expires_date": "2025-01-22 06:34:27 Etc/GMT",
-      "expires_date_pst": "2025-01-21 22:34:27 America/Los_Angeles",
+      "expires_date": "2099-01-22 06:34:27 Etc/GMT",
+      "expires_date_pst": "2099-01-21 22:34:27 America/Los_Angeles",
       "is_in_intro_offer_period": "false",
       "transaction_id": "120002112488657",
       "is_trial_period": "false",
