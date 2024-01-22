@@ -1,2 +1,4 @@
-var objc = JSON.parse($response.body);
-var objc = objc.replace(/"pro" : false/g, ""pro" : true");
+let body = JSON.parse($response.body);
+body.pro = "true";
+body = JSON.stringify(body);
+$done({body});
