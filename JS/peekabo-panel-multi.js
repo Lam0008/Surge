@@ -6,15 +6,20 @@
   地区: ip-api.com 反查(中文), 失败回退 ipwho.is, 结果经 $persistentStore 缓存 24h
 
   依赖参数(argument):
-    多服务器写法(推荐):
+    编号写法(推荐, 配合 .sgmodule 的独立输入框, 每台服务器名称/ID/Token 分开填, 不用手动拼接):
+      name1=<名称>&id1=<服务器ID>&token1=<API Token>
+      name2=<名称>&id2=<服务器ID>&token2=<API Token>
+      ... 依此类推, 编号最多可到 20, 名称可留空(留空时使用 API 返回的服务器名)
+      某一编号的 id/token 留空则该编号自动跳过, 不需要凑满
+
+    组合字符串写法(可选, 一个字段塞多台, 兼容旧配置):
       servers=<名称1>@<ID1>:<Token1>,<名称2>@<ID2>:<Token2>,...
-      名称可省略, 省略时使用 API 返回的服务器名, 例如:
       servers=@id1:token1,HK节点@id2:token2
 
-    单服务器写法(向下兼容旧配置):
+    单服务器写法(向下兼容最早期的单机模块):
       id=<服务器ID>&token=<API Token>
 
-    两种写法可以同时使用(会合并展示), 也可以只用其中一种。
+    以上写法可以同时使用, 结果会自动合并去重, 也可以只用其中一种。
 
     通用可选参数:
       icon=<SF Symbol>            面板图标, 默认 xserve
@@ -66,12 +71,36 @@ function parseArgs(str) {
   return out;
 }
 
+const MAX_NUMBERED_SERVERS = 20; // 编号字段 name{n}/id{n}/token{n} 最多扫描到几号
+
 // 解析多服务器配置, 返回 [{ label, id, token }, ...]
-// 支持 servers=名称@ID:Token,名称@ID:Token 以及旧版 id=&token=
+// 合并三种来源(可同时使用, 自动按 id:token 去重):
+//   1. 编号字段 name1/id1/token1 ... nameN/idN/tokenN
+//   2. servers=名称@ID:Token,名称@ID:Token 组合字符串
+//   3. 旧版单服务器 id=&token= (无编号)
 function parseServers() {
   const list = [];
   const seen = new Set();
 
+  function pushServer(label, id, token) {
+    id = String(id || "").trim();
+    token = String(token || "").trim();
+    if (!id || !token) return;
+    const key = `${id}:${token}`;
+    if (seen.has(key)) return;
+    seen.add(key);
+    list.push({ label: String(label || "").trim(), id, token });
+  }
+
+  // 1. 编号字段: name1/id1/token1 ...
+  for (let i = 1; i <= MAX_NUMBERED_SERVERS; i++) {
+    const id = ARGS[`id${i}`];
+    const token = ARGS[`token${i}`];
+    if (id === undefined && token === undefined) continue; // 该编号未出现, 跳过
+    pushServer(ARGS[`name${i}`], id, token);
+  }
+
+  // 2. servers= 组合字符串写法
   if (ARGS.servers) {
     for (const raw of ARGS.servers.split(",")) {
       const item = raw.trim();
@@ -88,24 +117,13 @@ function parseServers() {
       const colonIdx = rest.indexOf(":");
       if (colonIdx < 0) continue; // 缺少 token, 跳过该条
 
-      const id = rest.slice(0, colonIdx).trim();
-      const token = rest.slice(colonIdx + 1).trim();
-      if (!id || !token) continue;
-
-      const key = `${id}:${token}`;
-      if (seen.has(key)) continue;
-      seen.add(key);
-      list.push({ label, id, token });
+      pushServer(label, rest.slice(0, colonIdx), rest.slice(colonIdx + 1));
     }
   }
 
-  // 向下兼容: 旧版单服务器 id/token 参数
+  // 3. 向下兼容: 最早期的单服务器 id/token 参数(无编号)
   if (ARGS.id && ARGS.token) {
-    const key = `${ARGS.id}:${ARGS.token}`;
-    if (!seen.has(key)) {
-      seen.add(key);
-      list.push({ label: "", id: ARGS.id, token: ARGS.token });
-    }
+    pushServer(ARGS.name, ARGS.id, ARGS.token);
   }
 
   return list;
