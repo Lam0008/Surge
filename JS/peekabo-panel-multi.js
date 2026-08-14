@@ -9,7 +9,8 @@
     编号写法(推荐, 配合 .sgmodule 的独立输入框, 每台服务器名称/ID/Token 分开填, 不用手动拼接):
       name1=<名称>&id1=<服务器ID>&token1=<API Token>
       name2=<名称>&id2=<服务器ID>&token2=<API Token>
-      ... 依此类推, 编号最多可到 20, 名称可留空(留空时使用 API 返回的服务器名)
+      name3=<名称>&id3=<服务器ID>&token3=<API Token>
+      当前配套的 .sgmodule 提供 3 组输入框(最多 3 台), 名称可留空(留空时使用 API 返回的服务器名)
       某一编号的 id/token 留空则该编号自动跳过, 不需要凑满
 
     组合字符串写法(可选, 一个字段塞多台, 兼容旧配置):
@@ -71,7 +72,7 @@ function parseArgs(str) {
   return out;
 }
 
-const MAX_NUMBERED_SERVERS = 20; // 编号字段 name{n}/id{n}/token{n} 最多扫描到几号
+const MAX_NUMBERED_SERVERS = 3; // 编号字段 name{n}/id{n}/token{n} 最多扫描到几号(需与 .sgmodule 的输入框数量一致)
 
 // 解析多服务器配置, 返回 [{ label, id, token }, ...]
 // 合并三种来源(可同时使用, 自动按 id:token 去重):
